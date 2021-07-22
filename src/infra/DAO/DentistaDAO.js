@@ -7,7 +7,7 @@ class DentistaDAO{
     }
 
     getDentistas(){
-        
+
     }
 }
 module.exports = DentistaDAO
