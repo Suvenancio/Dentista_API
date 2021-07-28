@@ -13,10 +13,10 @@ module.exports = (app,bd) =>{
         }
     })
 
-    app.get('/dentista/:ID', async (req,res)=>{
+    app.get('/dentista/:CRO', async (req,res)=>{
         
         try{
-            const id = req.params.ID;
+            const id = req.params.CRO;
             const verUmDentista = await DaoDentista.MostrarUmDentista(id)
             res.status(200).json(verUmDentista)
             }catch(e){

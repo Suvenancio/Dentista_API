@@ -16,7 +16,7 @@ module.exports = class DentistaDAO {
     }
     MostrarUmDentista(id){
         return new Promise((resolve, reject)=>{
-            const query ='SELECT * FROM DENTISTA WHERE ID = (?)'
+            const query ='SELECT * FROM DENTISTA WHERE CRO = (?)'
             this.bd.all(query,id,(e,res)=>{
                 if(e) reject('Erro ao acessar BD')
                 else resolve(res)
