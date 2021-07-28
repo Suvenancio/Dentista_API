@@ -25,18 +25,27 @@ Para rodar o sistema foi criado no script do arquivo package o scrpit dev, que c
 </p>
 <h3>Get pesquisa pelo CRO</h3>
 <p> utilizando o endereço localhost:3333/dentista/CRO no insomnima na opção GET é possível ver todos os dentista com o CRO informado </p>
+<img alt="getALL" title="#getALL" src="./screenshotsInsomnia/getBusca.JPG" />
 <br>
 <h3>Get pesquisa pelo CRO</h3>
-<p> utilizando o endereço localhost:3333/dentista/CRO no insomnima na opção GET é possível ver  o dentista com o CRO informado </p>
+<p> Utilizando o endereço localhost:3333/dentista/CRO no insomnima na opção GET é possível ver  o dentista com o CRO informado </p>
+<p>Processo é feito conforme foto abaixo!</p>
+<img alt="getALL" title="#getALL" src="./screenshotsInsomnia/getBusca.JPG" />
 <br>
 <h3>POST</h3>
-<p> utilizando o endereço localhost:3333/dentista no insomnima na opção POST, indo a opção body e escolhendo json e incluindo no corpo os dados que deseja, é possível incluir dados no banco de dados  </p>
+<p> Utilizando o endereço localhost:3333/dentista no insomnima na opção POST, indo a opção body e escolhendo json e incluindo no corpo os dados que deseja, é possível incluir dados no banco de dados  </p>
+<p>Processo é feito conforme foto abaixo!</p>
+<img alt="getALL" title="#getALL" src="./screenshotsInsomnia/post.JPG" />
 <br>
 <h3>DELETE</h3>
 <p> Utilizando o endereço localhost:3333/dentista/CRO no insomnima na opção DELETE, é possível excluir do banco de dados o cadastro que possui o CRO informado   </p>
+<p>Processo é feito conforme foto abaixo!</p>
+<img alt="getALL" title="#getALL" src="./screenshotsInsomnia/delete.JPG" />
 <br>
 <h3>PUT</h3>
 <p> Utilizando o endereço localhost:3333/dentista/CRO no insomnima na opção PUT,indo a opção body e escolhendo json e incluindo no corpo os dados que deseja alterar Assim, os dados do CRO informado serão alterado no banco de dados.   </p>
+<p>Processo é feito conforme foto abaixo!</p>
+<img alt="getALL" title="#getALL" src="./screenshotsInsomnia/put.JPG" />
 
 
 
