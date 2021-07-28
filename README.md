@@ -21,10 +21,12 @@ Para rodar o sistema foi criado no script do arquivo package o scrpit dev, que c
 <h3>Get All</h3>
 <p> utilizando o endereço localhost:3333/dentista no insomnima na opção GET é possível ver todos os dados incluidos no banco de dados. </p>
 <p >
+<p>Processo é feito conforme foto abaixo!</p>
   <img alt="getALL" title="#getALL" src="./screenshotsInsomnia/getAll.JPG" />
 </p>
 <h3>Get pesquisa pelo CRO</h3>
 <p> utilizando o endereço localhost:3333/dentista/CRO no insomnima na opção GET é possível ver todos os dentista com o CRO informado </p>
+<p>Processo é feito conforme foto abaixo!</p>
 <img alt="getALL" title="#getALL" src="./screenshotsInsomnia/getBusca.JPG" />
 <br>
 <h3>Get pesquisa pelo CRO</h3>
