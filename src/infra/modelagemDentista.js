@@ -8,8 +8,8 @@ CREATE TABLE IF NOT EXISTS "DENTISTA" (
     "ID" INTEGER PRIMARY KEY AUTOINCREMENT,
     "NOME" varchar(65) not null,
     "EMAIL" varchar(65),
-    "CRO" varchar(65),
-    "ESPECIALIDADE" varchar(65)
+    "CRO" varchar(65)  not null,
+    "ESPECIALIDADE" varchar(65)  not null
   );`;
 
 const DENTISTA_DATA = `
