@@ -3,11 +3,12 @@
 
 
 <h1> Bibliotecas utilizadadas:</h1>
+
 - Express para criar servidor;<br>
 - SQLite3 para criar banco de dados;<br>
 - Nodemon auxílio no servidor.<br>
 <br>
-AS bibliotecas foram instaladas colocando os seguentes comando no terminal:
+As bibliotecas foram instaladas colocando os seguentes comando no terminal:
 
 - npm init para criar arquivo package com as informações do projeto;
 - npm i express;
@@ -19,13 +20,13 @@ Para rodar o sistema foi criado no script do arquivo package o scrpit dev, que c
 <h1>Rodando as rotas CRUD</h1>
 
 <h3>Get All</h3>
-<p> utilizando o endereço localhost:3333/dentista no insomnima na opção GET é possível ver todos os dados incluidos no banco de dados. </p>
+<p> Utilizando o endereço localhost:3333/dentista no insomnima na opção GET é possível ver todos os dados incluidos no banco de dados. </p>
 <p >
 <p>Processo é feito conforme foto abaixo!</p>
   <img alt="getALL" title="#getALL" src="./screenshotsInsomnia/getAll.JPG" />
 </p>
 <h3>Get pesquisa pelo CRO</h3>
-<p> utilizando o endereço localhost:3333/dentista/CRO no insomnima na opção GET é possível ver todos os dentista com o CRO informado </p>
+<p> Utilizando o endereço localhost:3333/dentista/CRO no insomnima na opção GET é possível ver todos os dentista com o CRO informado </p>
 <p>Processo é feito conforme foto abaixo!</p>
 <img alt="getALL" title="#getALL" src="./screenshotsInsomnia/getBusca.JPG" />
 <br>
