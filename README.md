@@ -53,10 +53,10 @@ Para rodar o sistema foi criado no script do arquivo package o scrpit dev, que c
 <p> São feitos conforme imagens a seguir.<p>
 <p>Para testar a rota GET All, que mostra todos os usuários, utilizei o seguninte código.</p>
 <img alt="delete" title="#delete" src="./screenshotsInsomnia/testeGetAll.JPG" />
-<br><br><br>
-<p>Para testar a rota POST, que mostra todos os usuários, utilizei o seguninte código</p>
+<br>
+<p>Para testar a rota POST, que inclui informações no banco de dados, utilizei o seguninte código</p>
 <img alt="delete" title="#delete" src="./screenshotsInsomnia/testePost.JPG" />
-<br><br>
+<br>
 <p>Como resultado dos teste foi obtido</p>
 <img alt="delete" title="#delete" src="./screenshotsInsomnia/resultadoTeste.JPG" />
 
