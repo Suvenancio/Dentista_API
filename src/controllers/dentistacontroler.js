@@ -25,14 +25,14 @@ module.exports = (app,bd) =>{
     })
 
     app.post('/dentista', async (req,res)=>{
-        const {NOME, EMAIL, CRO, ESPECIALIDADE} = req.body
-        const newDentista = new Dentista(NOME, EMAIL, CRO, ESPECIALIDADE);
+        const {NOME, EMAIL, CPF, CRO, ESPECIALIDADE} = req.body
+        const newDentista = new Dentista(NOME, EMAIL, CPF, CRO, ESPECIALIDADE);
 
         try{
             const inserirDentista = await DaoDentista.NovoDentista(newDentista)
             res.status(200).json(inserirDentista)
         }catch(e){
-            res.status(500).json(e)
+            res.status(400).json(e)
         }
     })
 

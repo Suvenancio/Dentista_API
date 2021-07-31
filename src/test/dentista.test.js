@@ -16,7 +16,7 @@ test('/dentista', async()=>{
 
     .send({
         "NOME": "Enes",
-        "EMAIL": "enes@abcd.com",
+        "EMAIL": "enesabcd.com",
         "CRO": "12345",
         "ESPECIALIDADE": "Ortodonto",
     })
