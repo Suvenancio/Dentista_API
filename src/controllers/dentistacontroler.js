@@ -14,9 +14,10 @@ module.exports = (app,bd) =>{
     })
 
     app.get('/dentista/:CRO', async (req,res)=>{
-        
+        const id = req.params.CRO;
+        console.log(id)
         try{
-            const id = req.params.CRO;
+ 
             const verUmDentista = await DaoDentista.MostrarUmDentista(id)
             res.status(200).json(verUmDentista)
             }catch(e){

@@ -28,7 +28,7 @@ module.exports = class DentistaDAO {
             const query ='INSERT INTO DENTISTA (NOME, EMAIL, CPF, CRO, ESPECIALIDADE) VALUES (?,?,?,?,?)'
 
             this.bd.run(query,Object.values(newDentista), (e)=>{
-                if(e) reject(`Erro ao adicionar dados BD verifique se email e cpf estão seguindo o padrão! `)
+                if(e) reject(`Erro ao adicionar dados BD verifique e tente novamente! `)
                 else resolve('Dentista adicionado com sucesso')
             })
         })
