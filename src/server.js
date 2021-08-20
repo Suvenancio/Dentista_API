@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3333;
+const port = process.env.PORT;
 const bd = require('./infra/sql_db')
 const cors = require('cors')
 const rotaDentista = require('./controllers/dentistacontroler')
