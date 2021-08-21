@@ -6,6 +6,7 @@ const cors = require('cors')
 const rotaDentista = require('./controllers/dentistacontroler')
 
 app.use(express.json())
+app.use(cors())
 
 rotaDentista(app,bd)
 
