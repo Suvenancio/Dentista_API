@@ -26,8 +26,8 @@ module.exports = (app,bd) =>{
     })
 
     app.post('/dentista', async (req,res)=>{
-        const {NOME, EMAIL, CPF, CRO, ESPECIALIDADE} = req.body
-        const newDentista = new Dentista(NOME, EMAIL, CPF, CRO, ESPECIALIDADE);
+        const {NOME, EMAIL, CPF, CRO, ESPECIALIDADE,FOTO} = req.body
+        const newDentista = new Dentista(NOME, EMAIL, CPF, CRO, ESPECIALIDADE, FOTO);
 
         try{
             const inserirDentista = await DaoDentista.NovoDentista(newDentista)
@@ -51,7 +51,7 @@ module.exports = (app,bd) =>{
     app.put('/dentista/:CRO', async (req,res)=>{
         const conselho = req.params.CRO
         const body = req.body
-        const infos = [body.NOME, body.EMAIL, body.CRO, body.ESPECIALIDADE]
+        const infos = [body.NOME, body.EMAIL, body.CRO, body.ESPECIALIDADE, body.FOTO]
     
 
         try{

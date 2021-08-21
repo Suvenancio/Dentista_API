@@ -25,7 +25,7 @@ module.exports = class DentistaDAO {
     }
     NovoDentista(newDentista){
         return new Promise((resolve, reject)=>{
-            const query ='INSERT INTO DENTISTA (NOME, EMAIL, CPF, CRO, ESPECIALIDADE) VALUES (?,?,?,?,?)'
+            const query ='INSERT INTO DENTISTA (NOME, EMAIL, CPF, CRO, ESPECIALIDADE, FOTO) VALUES (?,?,?,?,?,?)'
 
             this.bd.run(query,Object.values(newDentista), (e)=>{
                 if(e) reject(`Erro ao adicionar dados BD verifique e tente novamente! `)
@@ -52,8 +52,8 @@ module.exports = class DentistaDAO {
             
         return new Promise((resolve,reject)=>{
 
-            const query ='UPDATE DENTISTA SET NOME = (?), EMAIL = (?), CRO = (?), ESPECIALIDADE = (?) WHERE CRO = (?)'
-            const parametros = [infos[0],infos[1],infos[2],infos[3],CRO]
+            const query ='UPDATE DENTISTA SET NOME = (?), EMAIL = (?), CRO = (?), ESPECIALIDADE = (?), FOTO = (?) WHERE CRO = (?)'
+            const parametros = [infos[0],infos[1],infos[2],infos[3], infos[4], CRO]
             console.log(infos)
                 
             this.bd.run(query, parametros, (e,res)=>{
