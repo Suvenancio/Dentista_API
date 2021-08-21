@@ -21,7 +21,8 @@ INSERT INTO DENTISTA ( NOME, EMAIL, CPF, CRO, ESPECIALIDADE, FOTO) VALUES
     ('Jose Maria Lopes', 'lopes_jose@yahoo.com.br', '092.222.333-44', '12345-PR', 'Ortodontia', 'https://cdn1.iconfinder.com/data/icons/blonde-man-professions/512/015-512.png'),
     ('Fernado Teixeira', 'drfernandoteixeira@gmail.com', '125.852.369-11', '45750-RJ', 'Implantodontia' ,'https://cdn1.iconfinder.com/data/icons/indian-man-professions/512/15-512.png'),
     ('Andressa Tavares', 'andressatavaresontoto@gmail.com', '112.741.586-88', '25141-RJ', 'Clinico Geral','https://cdn2.iconfinder.com/data/icons/redheaded-woman-professions/512/15-512.png'),
-    ('Jessica Magalhães', 'drajessicamagalhaes@gmail.com', '111.258.777-88', '32145-RJ', 'Ortodontia', 'https://cdn3.iconfinder.com/data/icons/indian-woman-professions/512/15-512.png') `
+    ('Jessica Magalhães', 'drajessicamagalhaes@gmail.com', '111.258.777-88', '32145-RJ', 'Ortodontia', 'https://cdn3.iconfinder.com/data/icons/indian-woman-professions/512/15-512.png') 
+    `
     
 function tabelaDentista() {
     db.run(DENTISTA_SCHEMA, (e)=> {
