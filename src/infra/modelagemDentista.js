@@ -25,7 +25,7 @@ INSERT INTO DENTISTA ( NOME, EMAIL, CPF, CRO, ESPECIALIDADE, FOTO, CIDADE) VALUE
     ('Jessica Magalhães', 'drajessicamagalhaes@gmail.com', '111.258.777-88', '32145-RJ', 'Ortodontia', 'https://cdn3.iconfinder.com/data/icons/indian-woman-professions/512/15-512.png', 'Rio de Janeiro'), 
     ('João Felipe Cortez', 'drajoaofelipe@gmail.com', '021.222.333-55', '12355-SP', 'Clinico Geral', 'https://cdn1.iconfinder.com/data/icons/white-man-with-black-hair-professions/512/015-512.png', 'São Paulo'), 
     ('Janaina Jaques', 'drajanainajaques@gmail.com', '011.333.852-11', '3145-SP', 'Ortodontia', 'https://cdn2.iconfinder.com/data/icons/white-woman-with-black-hair-professions/512/15-512.png', 'São Paulo'),
-    ('Fernando Fernandes', 'drfernandofernandes@gmail.com', '088.228.952-88', '7145-SP', 'Implantodontia', 'https://e7.pngegg.com/pngimages/486/573/png-clipart-dentistry-computer-icons-medicine-physician-hospital-people-hand-dentistry.png', 'São Paulo') 
+    ('Fernando Fernandes', 'drfernandofernandes@gmail.com', '088.228.952-88', '7145-SP', 'Implantodontia', 'https://cdn1.iconfinder.com/data/icons/red-head-man-professions/512/15-512.png', 'São Paulo') 
 
     `
     
