@@ -27,7 +27,7 @@ module.exports = (app,bd) =>{
 
     app.post('/dentista', async (req,res)=>{
 
-        res.setHeader('Acess-Control-Allow-Origin','https://damp-journey-22615.herokuapp.com/dentista')
+        
         const {NOME, EMAIL, CPF, CRO, ESPECIALIDADE,FOTO} = req.body
         const newDentista = new Dentista(NOME, EMAIL, CPF, CRO, ESPECIALIDADE, FOTO);
 
@@ -40,7 +40,7 @@ module.exports = (app,bd) =>{
     })
 
     app.delete('/dentista/:CRO', async (req,res)=>{
-        res.setHeader('Acess-Control-Allow-Origin','https://damp-journey-22615.herokuapp.com/dentista')
+       
         const conselho = req.params.CRO
         
         try{
@@ -52,7 +52,7 @@ module.exports = (app,bd) =>{
     })
 
     app.put('/dentista/:CRO', async (req,res)=>{
-        res.setHeader('Acess-Control-Allow-Origin','https://damp-journey-22615.herokuapp.com/dentista')
+        
         const conselho = req.params.CRO
         const body = req.body
         const infos = [body.NOME, body.EMAIL, body.CRO, body.ESPECIALIDADE, body.FOTO]
